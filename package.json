@@ -1,0 +1,22 @@
+{
+  "name": "csvtojsonapp",
+  "version": "1.0.0",
+  "description": "Program converts csv data to json values",
+  "main": "csvtojsonapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "csvtojsonapp"
+  },
+  "keywords": [
+    "csvtojsonapp",
+    "conversion"
+  ],
+  "author": "JPB",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.8"
+  }
+}
