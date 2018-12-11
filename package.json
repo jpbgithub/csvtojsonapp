@@ -1,6 +1,6 @@
 {
   "name": "csvtojsonapp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Program converts csv data to json values",
   "main": "csvtojsonapp.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "author": "JPB",
   "license": "ISC",
   "dependencies": {
-    "csvtojson": "^2.0.8"
+    "csvtojson": "^2.0.8",
+    "uuid": "^3.3.2"
   }
 }
