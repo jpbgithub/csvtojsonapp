@@ -5,6 +5,7 @@ const uuidv1 = require('uuid/v1')
 var csvFilePath=(path.join(__dirname,'data','customer-data.csv'))
 var jsonFileName=(path.join(__dirname,'data','customer-data.json'))
 
+//Performs the csv to JSON functions
 csv()
   .fromFile(csvFilePath)
   .then(function(jsonArrayObj){ //when parse finished, result will be emitted here.
